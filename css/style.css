@@ -2,7 +2,7 @@
 /* Faded Red - #e84141 */
 
 /* Font */
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;800&display=swap');
 
 /* Reset */
 * {
@@ -31,12 +31,24 @@ h1 {
     margin-bottom: 25px;
 }
 
-h2, h3 {
+h2 {
+    font-size: 200%;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+h3 {
+    margin-bottom: 10px;
+}
+
+h4 {
+    font-size: 115%;
+    font-weight: 500;
     margin-bottom: 10px;
 }
 
 p {
-    line-height: 1.4em;
+    line-height: 1.6em;
     font-weight: 300;
 }
 
@@ -53,6 +65,7 @@ img {
 
 .lead {
     font-size: 125%;
+    line-height: 1.5em;
 }
 
 .btn {
@@ -71,7 +84,7 @@ img {
 }
 
 .btn:hover {
-    transform: scale(0.95);
+    transform: scale(0.97);
 }
 
 /* Header */
@@ -104,8 +117,8 @@ header nav {
 /* Showcase */
 .showcase > .container {
     display: flex;
-    padding-top: 80px;
-    padding-bottom: 80px;
+    padding-top: 100px;
+    padding-bottom: 150px;
 }
 
 .showcase-image {
@@ -137,4 +150,31 @@ header nav {
 
 .showcase-content .btn:first-of-type {
     margin-right: 20px;
+}
+
+/* Product Section */
+.products {
+    margin-bottom: 100px;
+}
+.products > .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.product-box {
+    display: block;
+    width: 48%;
+    padding: 50px 40px;
+    border: 1px solid #ddd;
+    transition: transform 0.2s ease-in;
+}
+
+.product-box:hover {
+    transform: scale(0.97);
+}
+
+.product-box img {
+    width: 75px;
+    height: 75px;
+    margin-bottom: 20px;
 }
