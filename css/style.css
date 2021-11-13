@@ -2,7 +2,7 @@
 /* Faded Red - #e84141 */
 
 /* Font */
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;800&display=swap');
 
 /* Reset */
 * {
@@ -15,6 +15,10 @@
 html, body {
     font-size: 16px;
     font-family: 'Inter', sans-serif;
+}
+
+section {
+    padding-bottom: 140px;
 }
 
 ul {
@@ -48,6 +52,12 @@ h4 {
     margin-bottom: 10px;
 }
 
+h5 {
+    font-size: 87.5%;
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+
 p {
     line-height: 1.6em;
     font-weight: 300;
@@ -58,6 +68,10 @@ p {
     margin: 0 auto;
     padding: 0 20px;
     max-width: 1200px;
+}
+
+.center {
+    text-align: center;
 }
 
 .lead {
@@ -119,7 +133,6 @@ header nav {
 .showcase > .container {
     display: flex;
     padding-top: 100px;
-    padding-bottom: 150px;
 }
 
 .showcase-image {
@@ -154,10 +167,6 @@ header nav {
 }
 
 /* Product Section */
-.products {
-    margin-bottom: 100px;
-}
-
 .products > .container {
     display: flex;
     justify-content: space-between;
@@ -182,10 +191,6 @@ header nav {
 }
 
 /* Features */
-.features {
-    margin-bottom: 100px;
-}
-
 .features > .container {
     display: flex;
     justify-content: space-between;
@@ -208,4 +213,48 @@ header nav {
 
 .feature-box p {
     font-size: 105%;
+}
+
+/* Call to Action */
+.call-action .btn:first-of-type {
+    margin-right: 20px;
+}
+
+/* Footer */
+footer {
+    padding: 60px 0;
+    color: #fff;
+    background-color: rgb(24, 24, 29);
+}
+
+footer > .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-box {
+    width: 32%;
+    padding-top: 25px;
+    border-top: 1px solid #fff;
+}
+
+.footer-box ul {
+    padding-top: 15px;
+}
+
+.footer-box li {
+    margin-bottom: 15px;
+}
+
+.footer-box a {
+    font-size: 87.5%;
+}
+
+.footer-box a:hover {
+    font-weight: 600;
+}
+
+footer .love {
+    font-size: 75%;
+    margin-top: 50px;
 }
