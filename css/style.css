@@ -31,6 +31,7 @@ a {
 }
 
 h1 {
+    font-size: 375%;
     font-weight: 800;
     margin-bottom: 25px;
 }
@@ -72,6 +73,10 @@ p {
 
 .center {
     text-align: center;
+}
+
+.current {
+    color: #e84142;
 }
 
 .lead {
@@ -218,6 +223,55 @@ header nav {
 /* Call to Action */
 .call-action .btn:first-of-type {
     margin-right: 20px;
+}
+
+/* Whitepapers */
+.whitepapers {
+    padding-top: 100px;
+}
+
+.whitepapers > .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.whitepapers h1 {
+    padding-bottom: 60px;
+}
+
+.whitepapers .img-box {
+    display: block;
+    padding: 45px 0;
+    margin-bottom: 25px;
+    border: 1px solid #ddd;
+}
+
+.whitepapers .img-box:hover {
+    box-shadow: 1px 1px 10px #ddd, -1px -1px 10px #ddd;
+}
+
+.whitepapers .img-box img {
+    width: 110px;
+}
+
+.whitepapers .img-box h3 {
+    font-size: 125%;
+}
+
+.whitepapers .content-box {
+    width: 23%;
+}
+
+.whitepapers .content-box h4 {
+    font-weight: 600;
+    line-height: 140%;
+}
+
+.whitepapers .content-box p {
+    font-size: 96%;
+    font-weight: 400;
+    line-height: 150%;
+    color: #444;
 }
 
 /* Footer */
