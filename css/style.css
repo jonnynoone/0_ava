@@ -2,7 +2,7 @@
 /* Faded Red - #e84141 */
 
 /* Font */
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
 
 /* Reset */
 * {
@@ -272,6 +272,92 @@ header nav {
     font-weight: 400;
     line-height: 150%;
     color: #444;
+}
+
+/* Contact */
+.contact {
+    padding-top: 100px;
+}
+
+.contact .lead {
+    max-width: 550px;
+    margin: 0 auto;
+    padding-bottom: 60px;
+}
+
+.contact > .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact-img {
+    flex: 1;
+    text-align: right;
+    padding-right: 30px;
+}
+
+.contact-img img {
+    width: 100%;
+    max-width: 390px;
+}
+
+.contact-form {
+    flex: 1;
+    padding-left: 30px;
+}
+
+.contact-form label {
+    display: block;
+    width: 100%;
+    max-width: 390px;
+    font-size: 125%;
+    font-weight: 700;
+    color: #080808;
+    padding-bottom: 5px;
+}
+
+.contact-form input[type=text],
+.contact-form input[type=email],
+.contact-form textarea {
+    display: block;
+    width: 100%;
+    max-width: 390px;
+    padding: 12px;
+    border-radius: 3px;
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+}
+
+.contact-form input[type=text]:focus,
+.contact-form input[type=email]:focus,
+.contact-form textarea:focus {
+    outline: none;
+    border: 1px solid #e84141;
+    border-radius: 3px;
+}
+
+.contact-form textarea {
+    height: 90px;
+    resize: none;
+    font-family: 'Inter', sans-serif;
+}
+
+.contact-form .btn {
+    color: #000;
+    padding: 18px 40px;
+    background-color: #fff;
+    border: 1px solid #aaa;
+    font-size: 125%;
+    font-weight: 700;
+    box-shadow: 1px 1px 10px #ddd, -1px -1px 10px #ddd;
+    transition: color 0.2s, border 0.2s;
+    cursor: pointer;
+}
+
+.contact-form .btn:hover {
+    color: #e84141;
+    border: 1px solid #e84141;
+    transform: scale(1);
 }
 
 /* Footer */
