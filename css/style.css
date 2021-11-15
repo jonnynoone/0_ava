@@ -255,6 +255,18 @@ header nav {
 }
 
 /* Team */
+.team {
+    padding-top: 100px;
+}
+
+.team h1 {
+    padding-bottom: 15px;
+}
+
+.team .info-box {
+    padding-top: 0;
+}
+
 .team-member {
     cursor: pointer;
 }
@@ -309,39 +321,39 @@ header nav {
 }
 
 /* Whitepapers */
-.whitepapers {
+.projects {
     padding-top: 100px;
 }
 
-.whitepapers h1 {
+.projects h1 {
     padding-bottom: 60px;
 }
 
-.whitepapers .img-box {
+.projects .img-box {
     display: block;
     padding: 45px 0;
     margin-bottom: 25px;
     border: 1px solid #ddd;
 }
 
-.whitepapers .img-box:hover {
+.projects .img-box:hover {
     box-shadow: 1px 1px 10px #ddd, -1px -1px 10px #ddd;
 }
 
-.whitepapers .img-box img {
+.projects .img-box img {
     width: 110px;
 }
 
-.whitepapers .img-box h3 {
+.projects .img-box h3 {
     font-size: 125%;
 }
 
-.whitepapers .content-box h4 {
+.projects .content-box h4 {
     font-weight: 600;
     line-height: 140%;
 }
 
-.whitepapers .content-box p {
+.projects .content-box p {
     font-size: 96%;
     line-height: 150%;
 }
