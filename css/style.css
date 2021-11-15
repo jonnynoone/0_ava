@@ -71,6 +71,11 @@ p {
     max-width: 1200px;
 }
 
+.flex {
+    display: flex;
+    justify-content: space-between;
+}
+
 .center {
     text-align: center;
 }
@@ -86,6 +91,16 @@ p {
 
 .box-copy {
     padding: 15px 20px 25px;
+}
+
+.content-box {
+    width: 23%;
+}
+
+.content-box p {
+    font-weight: 400;
+    line-height: 170%;
+    color: #444;
 }
 
 .btn {
@@ -172,11 +187,6 @@ header nav {
 }
 
 /* Product Section */
-.products > .container {
-    display: flex;
-    justify-content: space-between;
-}
-
 .product-box {
     display: block;
     width: 48%;
@@ -196,11 +206,6 @@ header nav {
 }
 
 /* Features */
-.features > .container {
-    display: flex;
-    justify-content: space-between;
-}
-
 .feature-box {
     width: 23%;
     display: block;
@@ -225,14 +230,43 @@ header nav {
     margin-right: 20px;
 }
 
-/* Whitepapers */
-.whitepapers {
+/* Careers */
+.careers {
     padding-top: 100px;
 }
 
-.whitepapers > .container {
-    display: flex;
-    justify-content: space-between;
+.careers h1 {
+    padding-bottom: 35px;
+}
+
+.careers .content-box img {
+    width: 50%;
+    margin-bottom: 16px;
+}
+
+.career-info {
+    padding-top: 80px;
+}
+
+.career-info h2 {
+    margin-bottom: 30px;
+}
+
+.career-info .lead {
+    margin: 0 auto;
+    max-width: 850px;
+    font-size: 120%;
+    line-height: 165%;
+    margin-bottom: 30px;
+}
+
+.career-info .btn {
+    margin-top: 10px;
+}
+
+/* Whitepapers */
+.whitepapers {
+    padding-top: 100px;
 }
 
 .whitepapers h1 {
@@ -258,10 +292,6 @@ header nav {
     font-size: 125%;
 }
 
-.whitepapers .content-box {
-    width: 23%;
-}
-
 .whitepapers .content-box h4 {
     font-weight: 600;
     line-height: 140%;
@@ -269,9 +299,7 @@ header nav {
 
 .whitepapers .content-box p {
     font-size: 96%;
-    font-weight: 400;
     line-height: 150%;
-    color: #444;
 }
 
 /* Contact */
@@ -283,11 +311,6 @@ header nav {
     max-width: 550px;
     margin: 0 auto;
     padding-bottom: 60px;
-}
-
-.contact > .container {
-    display: flex;
-    justify-content: space-between;
 }
 
 .contact-img {
@@ -365,11 +388,6 @@ footer {
     padding: 60px 0;
     color: #fff;
     background-color: rgb(24, 24, 29);
-}
-
-footer > .container {
-    display: flex;
-    justify-content: space-between;
 }
 
 .footer-box {
