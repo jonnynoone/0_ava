@@ -1,5 +1,5 @@
 /* Colors */
-/* Faded Red - #e84141 */
+/* Faded Blue - #4141e8 */
 /* Dark Navy - #18181d */
 
 /* Font */
@@ -82,7 +82,7 @@ p {
 }
 
 .current {
-    color: #e84142;
+    color: #4141e8;
 }
 
 .lead {
@@ -111,15 +111,15 @@ p {
     font-weight: 400;
     display: inline-block;
     padding: 18px 25px;
-    color: #e84141;
-    border: 2px solid #e84141;
+    color: #4141e8;
+    border: 2px solid #4141e8;
     transition: transform 0.2s ease-in;
 }
 
 .btn-primary {
     padding: 18px 35px;
     color: #fff;
-    background-color: #e84141;
+    background-color: #4141e8;
 }
 
 .btn:hover {
@@ -154,7 +154,7 @@ header nav {
 }
 
 .logo img {
-    width: 60px;
+    height: 36px;
     margin-left: 20px;
 }
 
@@ -180,17 +180,18 @@ header nav {
 }
 
 .showcase-image {
-    flex: 3;
+    flex: 7;
 }
 
 .showcase-image img {
     display: block;
     height: 400px;
-    margin: 0 auto;
+    margin-left: auto;
+    margin-right: 40px;
 }
 
 .showcase-content {
-    flex: 4;
+    flex: 8;
 }
 
 .showcase-content h1 {
@@ -293,7 +294,7 @@ header nav {
     border-radius: 50%;
     border-width: 10px;
     border-style: solid;
-    border-color: #e84141 #18184d #e84141 #18184d;
+    border-color: #4141e8 #18184d #4141e8 #18184d;
     transition: transform 0.3s;
 }
 
@@ -411,7 +412,7 @@ header nav {
 .contact-form input[type=email]:focus,
 .contact-form textarea:focus {
     outline: none;
-    border: 1px solid #e84141;
+    border: 1px solid #4141e8;
     border-radius: 3px;
 }
 
@@ -434,8 +435,8 @@ header nav {
 }
 
 .contact-form .btn:hover {
-    color: #e84141;
-    border: 1px solid #e84141;
+    color: #4141e8;
+    border: 1px solid #4141e8;
     transform: scale(1);
 }
 
